@@ -1,0 +1,61 @@
+body {
+    background-color: #FFACAC;
+    animation: cambio-color 15s ease-in-out infinite;
+    filter: brightness(0.9);
+    cursor: url("./img/neeko4.cur"), auto;
+  }
+  
+  @keyframes cambio-color {
+    0% {background-color: #B9F3E4;}
+    25% {background-color: #EA8FEA;}
+    50% {background-color: #FFAACF;}
+    75% {background-color: #FBFFB1;}
+    100% {background-color: #F6E6C2;}
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #25a3c3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: url("./img/mariposa.cur"), pointer;
+    margin: 0 10px;
+    flex: 1;
+  }
+  
+  nav a:hover {
+    background-color: #a034c0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  #contador {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 50px;
+  }
