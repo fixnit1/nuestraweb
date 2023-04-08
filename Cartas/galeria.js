@@ -9,6 +9,8 @@ images.forEach(image => {
       window.location.href = '../Cartas/archivos/Mi querida Rose.pdf';
     } else if (image.alt === 'Rose') {
       window.location.href = '../Cartas/archivos/Rose.pdf';
+    } else if (image.alt === 'Cuatro meses') {
+      window.location.href = '../Cartas/archivos/cuatro meses.pdf';
     }
     // Agrega más casos aquí
   });

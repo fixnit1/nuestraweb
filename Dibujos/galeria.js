@@ -5,6 +5,10 @@ images.forEach(image => {
     // Redirige al usuario a la página correspondiente
     if (image.alt === 'Dibujito UwU') {
       window.location.href = '../Dibujos/img/img feb rose.jpg';
+    } else if (image.alt === 'Dibujito2 UwU') {
+      window.location.href = '../Dibujos/img/cumple del tavo.jpg';
+    } else if (image.alt === 'Dibujito3 UwU') {
+      window.location.href = '../Dibujos/img/cocoro.jpg';
     }
     // Agrega más casos aquí
   });
