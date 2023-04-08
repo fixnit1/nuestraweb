@@ -9,6 +9,8 @@ images.forEach(image => {
       window.location.href = '../Dibujos/img/cumple del tavo.jpg';
     } else if (image.alt === 'Dibujito3 UwU') {
       window.location.href = '../Dibujos/img/cocoro.jpg';
+    } else if (image.alt === 'Dibujito4 UwU') {
+      window.location.href = '../Dibujos/img/corazon2.jpeg';
     }
     // Agrega más casos aquí
   });
