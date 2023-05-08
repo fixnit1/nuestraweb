@@ -11,6 +11,8 @@ images.forEach(image => {
       window.location.href = '../Cartas/archivos/Rose.pdf';
     } else if (image.alt === 'Cuatro meses') {
       window.location.href = '../Cartas/archivos/cuatro meses.pdf';
+    } else if (image.alt === 'Cinco meses') {
+      window.location.href = '../Cartas/archivos/cinco meses.pdf';
     }
     // Agrega más casos aquí
   });
